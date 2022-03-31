@@ -2,7 +2,7 @@
 //        [X] dependencias
 //        [X] permiso de internet
 //[X] POJOs
-//        [] Interfaz de operaciones
+//        [X] Interfaz de operaciones
 //[X] cliente de retrofit
 //[ ] Repositorio
 //[ ] Presenter para listado
