@@ -1,9 +1,9 @@
 //[] Consumo de API
-//        [] dependencias
-//        [] permiso de internet
-//[ ] POJOs
+//        [X] dependencias
+//        [X] permiso de internet
+//[X] POJOs
 //        [] Interfaz de operaciones
-//[] cliente de retrofit
+//[X] cliente de retrofit
 //[ ] Repositorio
 //[ ] Presenter para listado
 //        [ ] Interfaz para callbacks de la vista
