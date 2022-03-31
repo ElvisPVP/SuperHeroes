@@ -4,7 +4,7 @@
 //[X] POJOs
 //        [X] Interfaz de operaciones
 //[X] cliente de retrofit
-//[ ] Repositorio
+//[X] Repositorio
 //[ ] Presenter para listado
 //        [ ] Interfaz para callbacks de la vista
 //        [ ] Interfaz para callbacks del repositorio
@@ -12,7 +12,7 @@
 //        [ ] Interfaz para callbacks de la vista
 //        [ ] Interfaz para callbacks del repositorio
 //[ ] Fragmento de listado
-//        [ ] Layout de item list
+//        [x] Layout de item list
 //        [ ] Adapter + ViewHolder + RV
 //        [ ] Consumo de imágenes (dependencias)
 //        [ ] Instanciar presentador
