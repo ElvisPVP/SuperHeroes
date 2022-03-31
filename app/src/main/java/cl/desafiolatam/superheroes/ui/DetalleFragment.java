@@ -10,11 +10,7 @@ import android.view.ViewGroup;
 
 import cl.desafiolatam.superheroes.R;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link DetalleFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class DetalleFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
