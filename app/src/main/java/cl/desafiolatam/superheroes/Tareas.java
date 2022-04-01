@@ -6,18 +6,18 @@
 //[X] cliente de retrofit
 //[X] Repositorio
 //[ ] Presenter para listado
-//        [ ] Interfaz para callbacks de la vista
-//        [ ] Interfaz para callbacks del repositorio
-//[ ] Presenter para detalle
-//        [ ] Interfaz para callbacks de la vista
-//        [ ] Interfaz para callbacks del repositorio
-//[ ] Fragmento de listado
+//        [X ] Interfaz para callbacks de la vista
+//        [ X] Interfaz para callbacks del repositorio
+//[X ] Presenter para detalle
+//        [X ] Interfaz para callbacks de la vista
+//        [ X] Interfaz para callbacks del repositorio
+//[X ] Fragmento de listado
 //        [x] Layout de item list
-//        [ ] Adapter + ViewHolder + RV
-//        [ ] Consumo de imágenes (dependencias)
-//        [ ] Instanciar presentador
-//[ ] Fragmento de detalle
-//        [ ] Instanciar presentador
+//        [X ] Adapter + ViewHolder + RV
+//        [X ] Consumo de imágenes (dependencias)
+//        [ X] Instanciar presentador
+//[X ] Fragmento de detalle
+//        [X ] Instanciar presentador
 //[ ] Pruebas unitarias
 //        [ ] Pruebas unitarias al presentador del listado
 //[ ] Verificación de buenas prácticas
