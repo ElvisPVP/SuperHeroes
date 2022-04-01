@@ -7,8 +7,8 @@
     android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="398dp"
+        android:layout_height="127dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -17,41 +17,39 @@
 
         <androidx.gridlayout.widget.GridLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+
             app:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/ivSuper"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
                 app:layout_gravity="left"
                 tools:srcCompat="@tools:sample/avatars" />
 
-            <LinearLayout
-                android:layout_width="263dp"
-                android:layout_height="110dp"
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
 
-                android:orientation="vertical">
+                android:layout_marginEnd="10dp"
+                android:gravity="center"
+                android:text="TextView"
+                app:layout_column="3"
+                app:layout_row="0" />
 
-                <TextView
-                    android:id="@+id/tvName"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginEnd="2dp"
-                    android:gravity="right"
-                    android:text="TextView" />
+            <TextView
+                android:id="@+id/tvSlug"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="92dp"
+                android:gravity="center|bottom"
+                android:text="TextView"
+                app:layout_column="3"
+                app:layout_row="0" />
 
-                <TextView
-                    android:id="@+id/tvSlug"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginEnd="2dp"
-                    android:layout_marginBottom="5dp"
-                    android:gravity="bottom|end"
-                    android:text="TextView" />
-
-            </LinearLayout>
 
         </androidx.gridlayout.widget.GridLayout>
     </androidx.cardview.widget.CardView>
