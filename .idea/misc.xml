@@ -4,8 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Elvis/AndroidStudioProjects/SuperHeroes/app/src/main/res/drawable/heroes_mid_background.xml" value="0.1795" />
+        <entry key="..\:/Users/Elvis/AndroidStudioProjects/SuperHeroes/app/src/main/res/drawable/ic_logoc.xml" value="0.178" />
         <entry key="..\:/Users/Elvis/AndroidStudioProjects/SuperHeroes/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/Elvis/AndroidStudioProjects/SuperHeroes/app/src/main/res/layout/fragment_detalle.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Elvis/AndroidStudioProjects/SuperHeroes/app/src/main/res/layout/fragment_detalle.xml" value="0.25" />
         <entry key="..\:/Users/Elvis/AndroidStudioProjects/SuperHeroes/app/src/main/res/layout/fragment_lista.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Elvis/AndroidStudioProjects/SuperHeroes/app/src/main/res/layout/item_layout_list.xml" value="0.33" />
         <entry key="..\:/Users/Elvis/AndroidStudioProjects/SuperHeroes/app/src/main/res/layout/item_layout_lista.xml" value="0.20416666666666666" />

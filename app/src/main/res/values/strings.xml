@@ -11,4 +11,5 @@
     <string name="power">Power</string>
     <string name="combat">Combat</string>
     <string name="desconocido">Unknown</string>
+    <string name="aqui_va_el_nombre">Aqui va el nombre</string>
 </resources>
