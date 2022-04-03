@@ -8,6 +8,7 @@ import androidx.lifecycle.ViewModel;
 import java.util.List;
 
 import cl.desafiolatam.superheroes.cliente.ClienteRetrofit;
+import cl.desafiolatam.superheroes.modelo.HeroesRespuesta;
 import cl.desafiolatam.superheroes.modelo.HeroesRespuestaItem;
 import cl.desafiolatam.superheroes.servicio.SuperHeroAPI;
 import retrofit2.Call;
@@ -19,6 +20,7 @@ public class HeroesViewModel extends ViewModel {
     private SuperHeroAPI servicio = ClienteRetrofit.getInstance(ClienteRetrofit.BASE_URL);
     private MutableLiveData<List<HeroesRespuestaItem>> misHeroes = new MutableLiveData<List<HeroesRespuestaItem>>();
     private MutableLiveData<HeroesRespuestaItem> misHeroesItem = new MutableLiveData<>();
+
 
     public void llamarApi(){
         servicio.getHeroesRespuesta().enqueue(new Callback <List<HeroesRespuestaItem>>() {
@@ -44,7 +46,9 @@ public class HeroesViewModel extends ViewModel {
         return misHeroes;
     }
 
-    public MutableLiveData<HeroesRespuestaItem> getMisHeroesItem() {
+    public MutableLiveData<HeroesRespuestaItem> getMisHeroeItem() {
         return misHeroesItem;
     }
+
+
 }

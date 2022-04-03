@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import com.squareup.picasso.Picasso;
 
 
+import cl.desafiolatam.superheroes.R;
 import cl.desafiolatam.superheroes.databinding.FragmentDetalleBinding;
 import cl.desafiolatam.superheroes.viewModel.HeroesViewModel;
 
@@ -31,10 +32,10 @@ public class DetalleFragment extends Fragment {
 
         viewModel = new ViewModelProvider(getActivity()).get(HeroesViewModel.class);
 
-        viewModel.getMisHeroesItem().observe(getViewLifecycleOwner(),heroesRespuestaItems -> {
+        viewModel.getMisHeroeItem().observe(getViewLifecycleOwner(), heroesRespuestaItems -> {
             binding.tvNameDetail.setText(heroesRespuestaItems.getName());
             if (heroesRespuestaItems.getBiography().getFullName().equals("")){
-                binding.tvNameDetail.setText(heroesRespuestaItems.getName());
+                binding.tvNameRealDetail.setText(R.string.desconocido);
             }
             else {
                 binding.tvNameRealDetail.setText(heroesRespuestaItems.getBiography().getFullName());
