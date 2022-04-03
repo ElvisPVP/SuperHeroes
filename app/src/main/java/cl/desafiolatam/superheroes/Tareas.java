@@ -18,16 +18,13 @@
 //        [ X] Instanciar presentador
 //[X ] Fragmento de detalle
 //        [X ] Instanciar presentador
-//[ ] Pruebas unitarias
-//        [ ] Pruebas unitarias al presentador del listado
-//[ ] Verificación de buenas prácticas
-//[ ] Textos en strings.xml
-//[ ] Dimensiones en dimens.xml
-//[ ] Colores en colors.xml
-//[ ] No código comentado
+//[ X] Pruebas unitarias
+//        [X ] Pruebas unitarias al presentador del listado
+//[X] Verificación de buenas prácticas
+//[X] Textos en strings.xml
+//[X] Dimensiones en dimens.xml
+//[X] Colores en colors.xml
+//[X] No código comentado
 
 
-        package cl.desafiolatam.superheroes;
 
-public class Tareas {
-}

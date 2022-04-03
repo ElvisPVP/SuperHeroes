@@ -30,7 +30,7 @@ public class ListaFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+
         binding = FragmentListaBinding.inflate(inflater, container,false);
         viewModel = new ViewModelProvider(getActivity()).get(HeroesViewModel.class);
         return binding.getRoot();
